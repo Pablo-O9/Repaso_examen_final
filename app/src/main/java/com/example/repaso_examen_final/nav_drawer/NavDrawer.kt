@@ -41,7 +41,7 @@ class NavDrawer : AppCompatActivity() {
                 R.id.nav_home, R.id.nav_gallery//, R.id.nav_slideshow
             ), drawerLayout
         )
-        //appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
+        appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)

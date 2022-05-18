@@ -1,21 +1,34 @@
-package com.example.repaso_examen_final.ejercicios
+package com.example.repaso_examen_final.ejercicios.ciclo_vida
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.View
+import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.Lifecycle
-import com.example.repaso_examen_final.databinding.ActivityMainBinding
+import androidx.navigation.findNavController
+import androidx.navigation.ui.AppBarConfiguration
+import com.example.repaso_examen_final.R
 import com.example.repaso_examen_final.databinding.CicloVidaBinding
 
 class CicloVidaActivity : AppCompatActivity() {
     private lateinit var binding: CicloVidaBinding
     var aux: String = ""
+
+    //prueba de abajo
+    // private lateinit var appBarConfiguration: AppBarConfiguration
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = CicloVidaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        /*
+        Probando a meter un navdrawer de otro lado
+        val drawerLayout: DrawerLayout =
+        val navController = findNavController(R.id.nav_host_fragment_content_nav_drawer)
+        appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
+*/
 
         binding.txview.setText(savedInstanceState.toString())
 

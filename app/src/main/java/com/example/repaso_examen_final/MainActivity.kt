@@ -3,14 +3,10 @@ package com.example.repaso_examen_final
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.CountDownTimer
-import android.view.View
-import androidx.core.view.isGone
-import androidx.lifecycle.Lifecycle
 import com.example.repaso_examen_final.bottom_nav.BottomNavActivity
 import com.example.repaso_examen_final.databinding.ActivityMainBinding
+import com.example.repaso_examen_final.ejercicios.ciclo_vida.CicloVidaActivity
 import com.example.repaso_examen_final.nav_drawer.NavDrawer
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -34,6 +30,14 @@ class MainActivity : AppCompatActivity() {
                 Intent(
                     this,
                     NavDrawer::class.java
+                )
+            )
+        }
+        binding.btnCicloVida.setOnClickListener {
+            startActivity(
+                Intent(
+                    this,
+                    CicloVidaActivity::class.java
                 )
             )
         }
