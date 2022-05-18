@@ -11,6 +11,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.NavController
+import androidx.navigation.fragment.NavHostFragment
 import com.example.repaso_examen_final.databinding.ActivityNavDrawerBinding
 import com.example.repaso_examen_final.R
 
@@ -19,31 +21,34 @@ class NavDrawer : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityNavDrawerBinding
 
+    private lateinit var navController: NavController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityNavDrawerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         setSupportActionBar(binding.appBarNavDrawer.toolbar)
 
-        binding.appBarNavDrawer.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-        }
-        val drawerLayout: DrawerLayout = binding.drawerLayout
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.nav_host_fragment_content_nav_drawer) as NavHostFragment
+         navController = navHostFragment.navController
         val navView: NavigationView = binding.navView
-        val navController = findNavController(R.id.nav_host_fragment_content_nav_drawer)
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+//        binding.appBarNavDrawer.fab.setOnClickListener { view ->
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                .setAction("Action", null).show()
+//        }
+
+
+
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery//, R.id.nav_slideshow
-            ), drawerLayout
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+            ), binding.drawerLayout
         )
-        appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
+//      appBarConfiguration = AppBarConfiguration(navController.graph, binding.drawerLayout)
 
-        setupActionBarWithNavController(navController, appBarConfiguration)
+        setupActionBarWithNavController(navController,appBarConfiguration)
         navView.setupWithNavController(navController)
     }
 
@@ -54,7 +59,7 @@ class NavDrawer : AppCompatActivity() {
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        val navController = findNavController(R.id.nav_host_fragment_content_nav_drawer)
+
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 }

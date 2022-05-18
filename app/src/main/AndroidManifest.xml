@@ -18,17 +18,11 @@
             android:name=".bottom_nav.BottomNavActivity"
             android:exported="false"
             android:label="@string/title_activity_bottom_nav" />
-        <activity
-            android:name=".botom_nav.BottomNavActivity"
-            android:exported="false"
-            android:label="@string/title_activity_bottom_nav" />
+
         <activity
             android:name=".ejercicios.ciclo_vida.CicloVidaActivity"
             android:exported="false" />
-        <activity
-            android:name=".botom_nav.BotomNavActivity"
-            android:exported="false"
-            android:label="@string/title_activity_botom_nav" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
