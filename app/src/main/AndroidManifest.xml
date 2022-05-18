@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.repaso_examen_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Repaso_examen_final">
+        <activity
+            android:name=".nav_drawer.NavDrawer"
+            android:exported="false"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/Theme.Repaso_examen_final.NoActionBar" />
+        <activity
+            android:name=".bottom_nav.BottomNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity
+            android:name=".botom_nav.BottomNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity
+            android:name=".ejercicios.CicloVidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".botom_nav.BotomNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_botom_nav" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_bottom_nav.xml" value="0.1" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_main.xml" value="0.21422101449275363" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/botom_nav.xml" value="0.15307971014492755" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/bottom_nav_activity.xml" value="0.1" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/ciclo_vida.xml" value="0.15307971014492755" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/content_nav_drawer.xml" value="0.11302083333333333" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/nav_drawer.xml" value="0.24722222222222223" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

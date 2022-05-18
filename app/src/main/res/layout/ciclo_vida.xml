@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ejercicios.CicloVidaActivity">
+
+
+    <TextView
+        android:id="@+id/txview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvaux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvaux"
+        app:layout_constraintBottom_toTopOf="@+id/txview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/btn_eventos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Probando escuchador de eventos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txview" />
+
+    <TextView
+        android:id="@+id/marcador"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/marcador"
+        android:gravity="center"
+        android:text="Marcador"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <Button
+        android:id="@+id/btn_pausa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pausar programa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_eventos" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+
+        android:id="@+id/pixel1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/marcador"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_eventos">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/pixel2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/marcador"
+        app:layout_constraintStart_toEndOf="@+id/pixel1"
+        app:layout_constraintTop_toTopOf="@+id/pixel1">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/pixel3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/marcador"
+        app:layout_constraintEnd_toEndOf="@+id/pixel2"
+        app:layout_constraintTop_toBottomOf="@+id/pixel2">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/pixel4"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@color/marcador"
+        app:layout_constraintBottom_toBottomOf="@+id/pixel3"
+        app:layout_constraintEnd_toStartOf="@+id/pixel3" />
+
+    <TextView
+        android:id="@+id/tvcontador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pixel1"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_eventos" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
