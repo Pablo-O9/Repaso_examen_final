@@ -7,10 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.repaso_examen_final.databinding.FragmentHomeBinding
 import com.example.repaso_examen_final.databinding.FragmentHomeNavDrawerBinding
 
-class HomeFragment : Fragment() {
+class HomeFragmentNavDrawer : Fragment() {
 
     private var _binding: FragmentHomeNavDrawerBinding? = null
 
@@ -24,12 +23,12 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
+            ViewModelProvider(this).get(HomeViewModelNavDrawer::class.java)
 
         _binding = FragmentHomeNavDrawerBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
+        val textView: TextView = binding.textHomeNavDrawer
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }

@@ -16,5 +16,13 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_volver"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Volver" />
+        <item
+            android:id="@+id/nav_paso_args"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Paso de argumentos" />
     </group>
 </menu>

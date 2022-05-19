@@ -28,18 +28,12 @@ class NavDrawer : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        setSupportActionBar(binding.appBarNavDrawer.toolbar)
+       setSupportActionBar(binding.appBarNavDrawer.toolbar)
 
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment_content_nav_drawer) as NavHostFragment
          navController = navHostFragment.navController
         val navView: NavigationView = binding.navView
-//        binding.appBarNavDrawer.fab.setOnClickListener { view ->
-//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                .setAction("Action", null).show()
-//        }
-
-
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
@@ -53,7 +47,7 @@ class NavDrawer : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        // Inflate the menu; this adds items to the action bar if it1 is present.
         menuInflater.inflate(R.menu.nav_drawer, menu)
         return true
     }

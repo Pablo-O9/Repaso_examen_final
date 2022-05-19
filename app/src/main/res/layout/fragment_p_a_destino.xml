@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ejercicios.paso_argumentos.PADestinoFragment"
+    android:padding="32dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_green_light"
+
+        app:cardCornerRadius="50dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRecepcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="40dp"
+            android:layout_gravity="center"
+            tools:text="String recibido" />
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

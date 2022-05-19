@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.repaso_examen_final.nav_drawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.repaso_examen_final.nav_drawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/nav_volver"
+        android:name="com.example.repaso_examen_final.MainActivity"
+        android:label="@string/inicio"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.repaso_examen_final.nav_drawer.ui.home.HomeFragmentNavDrawer"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_nav_drawer" />
+    <fragment
+        android:id="@+id/PAOrigenFragment"
+        android:name="com.example.repaso_examen_final.ejercicios.paso_argumentos.PAOrigenFragment"
+        android:label="fragment_p_a_origen"
+        tools:layout="@layout/fragment_p_a_origen" >
+        <action
+            android:id="@+id/action_PAOrigenFragment_to_PADestinoFragment"
+            app:destination="@id/PADestinoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/PADestinoFragment"
+        android:name="com.example.repaso_examen_final.ejercicios.paso_argumentos.PADestinoFragment"
+        android:label="fragment_p_a_destino"
+        tools:layout="@layout/fragment_p_a_destino" >
+        <argument
+            android:name="persona"
+            app:argType="com.example.repaso_examen_final.ejercicios.paso_argumentos.Persona" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_paso_args"
+        android:name="com.example.repaso_examen_final.ejercicios.paso_argumentos.PasoArgunetosActivity"
+        android:label="activity_paso_argunetos"
+        tools:layout="@layout/activity_paso_argunetos" />
+</navigation>

@@ -31,7 +31,7 @@ class BottomNavActivity : AppCompatActivity() {
 
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications
+                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications, R.id.navigation_galeria
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

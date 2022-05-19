@@ -22,4 +22,9 @@
         android:name="com.example.repaso_examen_final.bottom_nav.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_galeria"
+        android:name="com.example.repaso_examen_final.nav_drawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
 </navigation>

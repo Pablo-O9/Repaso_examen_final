@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Repaso_examen_final">
         <activity
+            android:name=".ejercicios.paso_argumentos.PasoArgunetosActivity"
+            android:exported="false" />
+        <activity
             android:name=".nav_drawer.NavDrawer"
             android:exported="false"
             android:label="@string/title_activity_nav_drawer"
@@ -18,11 +21,9 @@
             android:name=".bottom_nav.BottomNavActivity"
             android:exported="false"
             android:label="@string/title_activity_bottom_nav" />
-
         <activity
             android:name=".ejercicios.ciclo_vida.CicloVidaActivity"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">

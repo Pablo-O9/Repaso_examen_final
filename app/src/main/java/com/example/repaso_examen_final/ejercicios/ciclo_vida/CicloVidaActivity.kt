@@ -7,28 +7,26 @@ import android.view.View
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.lifecycle.Lifecycle
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import com.example.repaso_examen_final.R
 import com.example.repaso_examen_final.databinding.CicloVidaBinding
+import com.google.android.material.navigation.NavigationView
 
 class CicloVidaActivity : AppCompatActivity() {
     private lateinit var binding: CicloVidaBinding
     var aux: String = ""
 
-    //prueba de abajo
-    // private lateinit var appBarConfiguration: AppBarConfiguration
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = CicloVidaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        /*
-        Probando a meter un navdrawer de otro lado
-        val drawerLayout: DrawerLayout =
-        val navController = findNavController(R.id.nav_host_fragment_content_nav_drawer)
-        appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
-*/
+
+
 
         binding.txview.setText(savedInstanceState.toString())
 
