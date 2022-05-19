@@ -21,7 +21,7 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Volver" />
         <item
-            android:id="@+id/nav_paso_args"
+            android:id="@+id/PAOrigenFragment"
             android:icon="@drawable/ic_notifications_black_24dp"
             android:title="Paso de argumentos" />
     </group>

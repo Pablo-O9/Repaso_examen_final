@@ -44,9 +44,4 @@
             android:name="persona"
             app:argType="com.example.repaso_examen_final.ejercicios.paso_argumentos.Persona" />
     </fragment>
-    <activity
-        android:id="@+id/nav_paso_args"
-        android:name="com.example.repaso_examen_final.ejercicios.paso_argumentos.PasoArgunetosActivity"
-        android:label="activity_paso_argunetos"
-        tools:layout="@layout/activity_paso_argunetos" />
 </navigation>
