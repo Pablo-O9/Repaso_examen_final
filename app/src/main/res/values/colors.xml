@@ -8,4 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="marcador">#5F4A85</color>
+    <color name="verde">#4C7144</color>
+
+    <color name="exam2021">#632C35</color>
+    <color name="naranja1">#553200</color>
+    <color name="naranja2">#805315</color>
+    <color name="naranja3">#AA7B39</color>
+    <color name="naranja4">#FFDCAA</color>
+    <color name="pink">#9FC824C8</color>
 </resources>

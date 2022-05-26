@@ -37,10 +37,10 @@ class NavDrawer : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home,R.id.nav_autocompletar,R.id.nav_listView,R.id.nav_paso_argumentos, R.id.nav_spinners,R.id.nav_volver
             ), binding.drawerLayout
         )
-//      appBarConfiguration = AppBarConfiguration(navController.graph, binding.drawerLayout)
+//     appBarConfiguration = AppBarConfiguration(navController.graph, binding.drawerLayout)
 
         setupActionBarWithNavController(navController,appBarConfiguration)
         navView.setupWithNavController(navController)

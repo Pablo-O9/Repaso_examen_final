@@ -2,10 +2,19 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_exam"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".nav_drawer.NavDrawer"
-    android:background="@color/naranja4">
+    tools:context=".ejercicios.examen.MainExamActivity">
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--       android:id="@+id/nav_menu_exam"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        app:headerLayout="@layout/nav_header_nav_drawer"-->
+<!--        app:menu="@menu/nav_menu_exam"-->
+<!--        />-->
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -16,12 +25,14 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/naranja2"
+            android:background="?attr/colorPrimary"
             app:popupTheme="@style/Theme.Repaso_examen_final.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_nav_drawer" />
+
+
+    <include layout="@layout/content_main_exam" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

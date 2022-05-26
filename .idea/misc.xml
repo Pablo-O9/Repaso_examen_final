@@ -5,22 +5,47 @@
       <map>
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_bottom_nav.xml" value="0.1" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_main.xml" value="0.21422101449275363" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_main_exam.xml" value="0.12360688956433637" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_nav_drawer.xml" value="0.1" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_paso_argunetos.xml" value="0.12360688956433637" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/activity_second.xml" value="0.1" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/app_bar_exam2021.xml" value="0.12360688956433637" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/app_bar_nav_drawer.xml" value="0.12360688956433637" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/botom_nav.xml" value="0.15307971014492755" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/bottom_nav_activity.xml" value="0.1" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/chachi_spinner_item.xml" value="0.25416666666666665" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/ciclo_vida.xml" value="0.15307971014492755" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/content_main_exam.xml" value="0.12360688956433637" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/content_nav_drawer.xml" value="0.1" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/elemento.xml" value="0.12360688956433637" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/elemento3.xml" value="0.1105072463768116" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/elemento_ex.xml" value="0.2" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_autocompletar.xml" value="0.25416666666666665" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_blank.xml" value="0.1105072463768116" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_dashboard.xml" value="0.23007246376811594" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_first.xml" value="0.23007246376811594" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_gallery.xml" value="0.12360688956433637" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_home_nav_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_list_view.xml" value="0.12943262411347517" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_main.xml" value="0.1105072463768116" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_p_a_destino.xml" value="0.25416666666666665" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_p_a_origen.xml" value="0.25416666666666665" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_recyclerview_ej1_fragement.xml" value="0.12360688956433637" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_second.xml" value="0.4" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_spinner_ej01.xml" value="0.25416666666666665" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_spinner_ej06.xml" value="0.11302083333333333" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/fragment_spinners.xml" value="0.2" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/item_guay.xml" value="0.25416666666666665" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/layout_bonito.xml" value="0.12360688956433637" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/layout/nav_header_nav_drawer.xml" value="0.12360688956433637" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/menu_exam.xml" value="0.16111111111111112" />
         <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/nav_drawer.xml" value="0.24722222222222223" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/nav_menu_exam.xml" value="0.16111111111111112" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/toolbar_f2_menu_exam.xml" value="0.264" />
+        <entry key="..\:/1.DAWClase/DAM/DAM/PMDM_Alejandro/PRopio/Repaso_examen_final/app/src/main/res/menu/toolbar_menu_exam.xml" value="0.16111111111111112" />
         <entry key="..\:/Cosas/Nocturno/Alejandro/Propio/Repaso_examen_final/app/src/main/res/layout/activity_bottom_nav.xml" value="0.1490036231884058" />
         <entry key="..\:/Cosas/Nocturno/Alejandro/Propio/Repaso_examen_final/app/src/main/res/layout/activity_nav_drawer.xml" value="0.24895833333333334" />
         <entry key="..\:/Cosas/Nocturno/Alejandro/Propio/Repaso_examen_final/app/src/main/res/layout/activity_paso_argunetos.xml" value="0.17916666666666667" />

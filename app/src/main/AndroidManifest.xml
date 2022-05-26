@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Repaso_examen_final">
         <activity
+            android:name=".ejercicios.examen.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicios.examen.MainExamActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main_exam"
+            android:theme="@style/Theme.Repaso_examen_final.NoActionBar" />
+        <activity
             android:name=".ejercicios.paso_argumentos.PasoArgunetosActivity"
             android:exported="false" />
         <activity

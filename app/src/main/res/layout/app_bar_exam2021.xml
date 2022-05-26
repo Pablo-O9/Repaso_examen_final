@@ -4,24 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".nav_drawer.NavDrawer"
-    android:background="@color/naranja4">
+    android:background="@color/naranja4"
+    tools:context=".nav_drawer.NavDrawer">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.Repaso_examen_final.AppBarOverlay">
+        android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/naranja2"
             app:popupTheme="@style/Theme.Repaso_examen_final.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_nav_drawer" />
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

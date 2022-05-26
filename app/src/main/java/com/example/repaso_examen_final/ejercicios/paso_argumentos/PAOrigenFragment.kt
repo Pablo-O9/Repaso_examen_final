@@ -38,7 +38,8 @@ class PAOrigenFragment : Fragment() {
 
 
             findNavController().navigate(
-                PAOrigenFragmentDirections.actionPAOrigenFragmentToPADestinoFragment(persona))
+                PAOrigenFragmentDirections.actionNavPasoArgumentosToNavPasoArgumentos22(persona)
+            )
         }
 
     }

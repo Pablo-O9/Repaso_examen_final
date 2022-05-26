@@ -8,21 +8,34 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
+
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_paso_argumentos"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Paso de argumentos" />
+        <item
+            android:id="@+id/nav_spinners"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Spinners" />
+        <item
+            android:id="@+id/nav_listView"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="Listas" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_autocompletar"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Autocompletar provincias" />
+        <item
+            android:id="@+id/nav_recycleView"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="RecycleView" />
+        <item
+            android:id="@+id/nav_mainExamActivity"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Examen 2021" />
         <item
             android:id="@+id/nav_volver"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Volver" />
-        <item
-            android:id="@+id/PAOrigenFragment"
-            android:icon="@drawable/ic_notifications_black_24dp"
-            android:title="Paso de argumentos" />
     </group>
 </menu>

@@ -6,16 +6,6 @@
     app:startDestination="@id/nav_home">
 
 
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.repaso_examen_final.nav_drawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.repaso_examen_final.nav_drawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
     <activity
         android:id="@+id/nav_volver"
         android:name="com.example.repaso_examen_final.MainActivity"
@@ -25,23 +15,60 @@
         android:id="@+id/nav_home"
         android:name="com.example.repaso_examen_final.nav_drawer.ui.home.HomeFragmentNavDrawer"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home_nav_drawer" />
+        tools:layout="@layout/fragment_home_nav_drawer">
+
+    </fragment>
     <fragment
-        android:id="@+id/PAOrigenFragment"
+        android:id="@+id/nav_paso_argumentos"
         android:name="com.example.repaso_examen_final.ejercicios.paso_argumentos.PAOrigenFragment"
         android:label="fragment_p_a_origen"
         tools:layout="@layout/fragment_p_a_origen" >
         <action
-            android:id="@+id/action_PAOrigenFragment_to_PADestinoFragment"
-            app:destination="@id/PADestinoFragment" />
+            android:id="@+id/action_nav_paso_argumentos_to_nav_paso_argumentos22"
+            app:destination="@id/nav_paso_argumentos2" />
     </fragment>
     <fragment
-        android:id="@+id/PADestinoFragment"
+        android:id="@+id/nav_paso_argumentos2"
         android:name="com.example.repaso_examen_final.ejercicios.paso_argumentos.PADestinoFragment"
         android:label="fragment_p_a_destino"
-        tools:layout="@layout/fragment_p_a_destino" >
+        tools:layout="@layout/fragment_p_a_destino">
+
         <argument
             android:name="persona"
             app:argType="com.example.repaso_examen_final.ejercicios.paso_argumentos.Persona" />
     </fragment>
+    <fragment
+        android:id="@+id/nav_spinners"
+        android:name="com.example.repaso_examen_final.ejercicios.spinners.Spinners"
+        android:label="fragment_spinners"
+        tools:layout="@layout/fragment_spinners" />
+    <fragment
+        android:id="@+id/nav_listView"
+        android:name="com.example.repaso_examen_final.ejercicios.listviews.ListView"
+        android:label="fragment_list_view"
+        tools:layout="@layout/fragment_list_view" />
+    <fragment
+        android:id="@+id/nav_autocompletar"
+        android:name="com.example.repaso_examen_final.ejercicios.autocompletar.AutocompletarFragment"
+        android:label="fragment_autocompletar"
+        tools:layout="@layout/fragment_autocompletar" />
+    <fragment
+        android:id="@+id/recyclerviewEj1Fragement"
+        android:name="com.example.repaso_examen_final.ejercicios.recicleview.RecyclerviewEj1Fragement"
+        android:label="fragment_recyclerview_ej1_fragement"
+        tools:layout="@layout/fragment_recyclerview_ej1_fragement" />
+    <fragment
+        android:id="@+id/nav_recycleView"
+        android:name="com.example.repaso_examen_final.ejercicios.recicleview.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_nav_recycleView_to_recyclerviewEj1Fragement"
+            app:destination="@id/recyclerviewEj1Fragement" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_mainExamActivity"
+        android:name="com.example.repaso_examen_final.ejercicios.examen.MainExamActivity"
+        android:label="activity_main_exam"
+        tools:layout="@layout/activity_main_exam" />
+
 </navigation>
